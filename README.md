@@ -4,7 +4,7 @@ This C++ program implements the Merge Sort algorithm using multithreading
 ## How It's Made:
 **Tools used:** C++
 
-This program performs a fairly simple merge_sort algorithm on an input array derived from input.txt. This program utilizes the **<pthread.h>** and **<mutex>** libraries to ensure optimize the merge sort and avoid race conditions.
+This program performs a fairly simple merge_sort algorithm on an input array derived from input.txt. This program utilizes the mutex and **<pthread.h>** libraries to ensure optimize the merge sort and avoid race conditions.
 
 ## Contents:
 This repository contains the files:
